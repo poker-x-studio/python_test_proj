@@ -12,6 +12,9 @@ os.system("cls")
 filepath = "info.txt"
 
 file = open(filepath,'w+')
+# 获取当前文件位置
+pos = file.tell()
+print ("当前位置: %d" % (pos))
 
 write_len = file.write("hello\n")
 print("write_len:",write_len)
@@ -27,6 +30,10 @@ file.seek(0, 0)
 
 str = file.read()
 print("str:",str)
+
+# 获取当前文件位置
+pos = file.tell()
+print ("当前位置: %d" % (pos))
 
 #关闭文件
 file.close()

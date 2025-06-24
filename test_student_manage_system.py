@@ -26,7 +26,7 @@ from operator import itemgetter
 #全局变量,学生字典
 dict_students = {}
 #json文件
-data_json = "data.json"
+json_file = "test_student_manage_system.json"
 
 #帮助
 def help():
@@ -134,11 +134,11 @@ def quit():
 def read_file():
 
     #查找文件是否存在
-    if not os.path.exists(data_json):
+    if not os.path.exists(json_file):
         return 
     
     # 读取文件
-    with open(data_json, "r", encoding="utf-8") as f:
+    with open(json_file, "r", encoding="utf-8") as f:
         global dict_students
         dict_students = json.load(f)
 
@@ -147,7 +147,7 @@ def read_file():
 #写入学生信息
 def write_file():
     # 写入文件
-    with open("data.json", "w", encoding="utf-8") as f:
+    with open(json_file, "w", encoding="utf-8") as f:
         json.dump(dict_students, f, indent=4, ensure_ascii=False)
 
     return 

@@ -1,6 +1,6 @@
 {
     "lu": {
-        "name": "lu",
+        "name": "xu",
         "age": 30,
         "nationality": "china",
         "gender": "m",
@@ -9,7 +9,7 @@
         "create_time": "2025-06-24 14:54:05.751732"
     },
     "wang": {
-        "name": "wang",
+        "name": "li",
         "age": 28,
         "nationality": "china",
         "gender": "f",
