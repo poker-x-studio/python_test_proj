@@ -10,13 +10,17 @@ def chek_type(a, b):
     if not isinstance(a, int) or not isinstance(b, int):
         raise TypeError("Both arguments must be integers")
     return True
-a=100
-b=200
+
 # 定义add函数
 def add(a, b):
   if chek_type(a, b):
       return a + b
 
+
+import platform
+print(platform.architecture())  # 应输出 ('64bit', 'WindowsPE')
+##输出 ('64bit', 'WindowsPE')
+
 #调用函数
-printme = add(a, "ddd")
-print(printme)
+#printme = add(a, "ddd")
+#print(printme)

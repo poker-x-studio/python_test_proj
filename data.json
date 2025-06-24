@@ -1,0 +1,20 @@
+{
+    "lu": {
+        "name": "lu",
+        "age": 30,
+        "nationality": "china",
+        "gender": "m",
+        "math_score": 50,
+        "english_score": 60,
+        "create_time": "2025-06-24 14:54:05.751732"
+    },
+    "wang": {
+        "name": "wang",
+        "age": 28,
+        "nationality": "china",
+        "gender": "f",
+        "math_score": 40,
+        "english_score": 40,
+        "create_time": "2025-06-24 15:05:59.462602"
+    }
+}
