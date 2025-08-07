@@ -12,7 +12,7 @@ WINDOW_HEIGHT = 480
 FRAME_RATE = 60
 SPEED = 3
 DIRECTION_CHANGE_PROB = 0.02  # 方向改变概率
-BG_COLOR = (30, 144, 255)     # 背景颜色
+BG_COLOR = (255, 255, 255)     # 背景颜色（白色）
 FPS_COLOR = (255, 255, 255)   # FPS文本颜色
 
 class GameSprite:
