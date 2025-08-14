@@ -6,6 +6,7 @@ import os
 #清除控制台
 os.system("cls")
 
+'''
 #功能：客户端
 #导入socket
 import socket
@@ -35,5 +36,15 @@ print(header.decode('utf-8'))
 print(html.decode('utf-8'))
 
 #写入文件
-with open('sina.html', 'wb')as f:
+with open('sina.html', 'wb') as f:
     f.write(html) 
+
+
+'''
+
+print(list(range(6)))
+print(list(range(1,6)))
+print(list(range(1,6,2)))
+print(list(range(1,6,-2)))
+
+
